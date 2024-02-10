@@ -36,7 +36,7 @@ This analysis documents the performance of the deep learning models I constructe
 
 2. Were you able to achieve the target model performance? 
 * No. I was not able to achieve the target model performance of 75% or higher accuracy
-    - Attemp 1: Accuracy 72.58%
+    - Attemp 1: Accuracy 72.69%
 ![attempt_1](Images/attempt_1.png)
     - Attemp 2: Accuracy 72.56%
 ![attempt_2](Images/attempt_2.png)
