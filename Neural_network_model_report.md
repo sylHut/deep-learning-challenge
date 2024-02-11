@@ -1,5 +1,5 @@
 # Overview of the Analysis
-This analysis documents the performance of the deep learning models I constructed using the Alphabet Soup dataset.
+This analysis is to document the performance of the deep learning models I constructed using the Alphabet Soup dataset.
 
 # Results
 **I. Data Processing**
@@ -34,23 +34,33 @@ This analysis documents the performance of the deep learning models I constructe
     - layer2 = 20 : activation = relu
     - layer3 = 30 : activation = relu
 
+* Attempt 4: Used a different activation function
+    - Application type cut off = 500
+    - Classification count cut off = 1800 
+    - layer1 = 10 : activation = tanh
+    - layer2 = 20 : activation = tanh
+ 
+
 2. Were you able to achieve the target model performance? 
 * No. I was not able to achieve the target model performance of 75% or higher accuracy
-    - Attemp 1: Accuracy 72.69%
+    - Attemp 1: Accuracy 72.69% 
 ![attempt_1](Images/attempt_1.png)
     - Attemp 2: Accuracy 72.56%
 ![attempt_2](Images/attempt_2.png)
     - Attemp 3: Accuracy 72.55%
 ![attempt_3](Images/attempt_3.png)
+    - Attemp 4: Accuracy 72.75%
+![attempt_4](Images/attempt_4.png)
 
 3. What steps did you take in your attempts to increase model performance?
 * Attemp 2: Doubled the hidden nodes of each layer compared to the attempt 1
 * Attemp 3: Added one more layer compared to the attempt 1 & 2
+* Attemp 4: Used a different activation function compared to the prior three attempts
 
 
 # Summary
 Despite making several modifications to the neural network model, the accuracy fell short of the 75% target. The deep learning model's accuracy in predicting the classification problem remained below 73% in each of the three attempts.
 
-
+To enhance prediction accuracy, an alternative approach needs to be considered. For instance, employing a support vector machine (SVM) model could be beneficial. SVM is a robust supervised learning algorithm suitable for linear and non-linear classification tasks, known for its strong generalization performance.
 
 
